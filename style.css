@@ -1,0 +1,45 @@
+body {
+  max-width: 100rem;
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+}
+
+.omelette-image {
+  width: 512px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.main {
+  background-color: white;
+  border-radius: 20px;
+  max-width: 512px;
+  padding: 20px;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+.prep {
+  background-color: hsl(330, 100%, 98%);
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.prep-heading {
+  color: hsl(332, 51%, 32%);
+}
+
+ul {
+  list-style-position: outside;
+  padding-left: 20px;
+}
+
+ul::marker {
+  color: rebeccapurple;
+}
