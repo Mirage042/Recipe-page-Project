@@ -7,7 +7,7 @@ body {
   background-color: hsl(30, 54%, 90%);
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding: 100px 0;
   min-height: 100vh;
   font-family: "Outfit", sans-serif;
   color: hsl(30, 10%, 34%);
@@ -138,14 +138,9 @@ li::marker {
 }
 
 .nutrition table td {
-  padding: 10px;
+  padding: 20px 10px;
 }
 
 .nutrition .label {
   padding-left: 20px;
-}
-
-tr {
-  border: solid;
-  border-width: 1px 0;
 }
